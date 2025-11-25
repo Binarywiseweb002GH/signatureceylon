@@ -5564,3 +5564,25 @@ button.active {
     color: #fff !important;
 }
 
+/* Shrink the top bar */
+/* Shrink only the top bar height, keep icons normal size */
+.header-holder {
+    padding: 20px 0 !important;  /* reduce top & bottom spacing */
+    min-height: 0 !important;   /* remove default min height */
+}
+
+.setting-wrap,
+.widget-cart-wrap {
+    margin: 0;   /* keep default line-height and font-size */
+}
+
+/* Remove font-size/line-height changes so icons stay normal */
+.setting-wrap i,
+.widget-cart-wrap i {
+    font-size: inherit;  /* keep original icon size */
+}
+.setting-wrap li,
+.widget-cart-wrap li {
+    margin-top: 25px; /* push items slightly down */
+}
+
