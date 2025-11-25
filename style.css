@@ -5544,3 +5544,23 @@ button.active {
     font-weight: bold; /* optional: keep it bold */
     float: right; /* similar to pull-right */
 }
+/* Make the general paragraph text white */
+.footer-text {
+    color: #ffffff !important; 
+}
+
+/* Make only these two links blue */
+.footer-text a.colored-link {
+    color: #11509d !important; 
+    text-decoration: none;
+}
+
+/* Optional: hover effect */
+.footer-text a.colored-link:hover {
+    text-decoration: underline;
+}
+.btn-primary:hover,
+.btn-primary.active:hover {
+    color: #fff !important;
+}
+
