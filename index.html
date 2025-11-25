@@ -148,7 +148,7 @@
 						</li>
 					</ul>
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt="Vine Yard" class="img-responsive"></a>
+						<a href="#0"><img src="images/logo.png" alt="Vine Yard" class="img-responsive"></a>
 					</div>
 				</div>
 			</div>
@@ -1113,20 +1113,26 @@ Sri Lanka</li>
 			</div>
 		</div>
 		<!-- popup2 of the page -->
-		<div id="popup2" class="lightbox-demo text-center">
-			<h4 class="heading2 text-uppercase">advanced popup modle</h4>
-			<div class="img-holder">
-				<img src="https://via.placeholder.com/600x260" alt="image description" class="img-responsive">
-			</div>
-			<span class="txt text-uppercase">sign up for out newsletter to<br> receive special offers</span>
-			<!-- email form of the page -->
-			<form class="email-form">
-				<fieldset>
-					<input class="form-control" type="email" placeholder="Email">
-					<button class="fa fa-long-arrow-right" type="submit"></button>
-				</fieldset>
-			</form>
-		</div>
+		<div id="popupOverlay">
+    <div id="popup2">
+        <h4 class="heading2 text-uppercase">Age Verification</h4>
+        
+        <div class="img-holder">
+            <img src="images/poup1.jpg" alt="Age Verification" class="img-responsive">
+        </div>
+
+        <span class="txt text-uppercase" style="font-size:18px; display:block; margin:15px 0;">
+            You must be 18 or older to enter this website
+        </span>
+
+        <div style="margin-top:20px;">
+            <button id="btnYes" class="btn btn-success" style="padding:10px 25px; margin-right:10px;">YES, I am 18+</button>
+            <button id="btnNo" class="btn btn-danger" style="padding:10px 25px;">NO</button>
+        </div>
+    </div>
+</div>
+
+
 		<!-- popup3 of the page -->
 		<div id="popup3" class="lightbox-demo text-left">
 			<h4 class="heading5 text-uppercase">Register</h4>
@@ -1154,5 +1160,32 @@ Sri Lanka</li>
 	<script src="js/plugins.js"></script>
 	<!-- include jQuery -->
 	<script src="js/jquery.main.js"></script>
+	<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const overlay = document.getElementById("popupOverlay");
+    const btnYes = document.getElementById("btnYes");
+    const btnNo = document.getElementById("btnNo");
+
+    // YES button click
+    btnYes.addEventListener("click", function() {
+        // Remove popup overlay from DOM
+        overlay.remove();
+
+        // Optional: redirect to index.html
+        // Comment this line if you just want to remove popup and stay on page
+        window.location.href = "index.html";
+    });
+
+    // NO button click
+    btnNo.addEventListener("click", function() {
+        alert("You must be 18+ to enter.");
+        // Optionally, you could redirect to another page or close window:
+        // window.location.href = "https://www.google.com";
+        // or window.close();
+    });
+});
+</script>
+
+
 </body>
 </html>

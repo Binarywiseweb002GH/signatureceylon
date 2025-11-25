@@ -5518,3 +5518,35 @@ button.active {
 #footer .copyright a:hover {
   color: #fff;
 }
+#popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup box style */
+#popup2 {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+}
+/* Hide any close button automatically added */
+#popup2 button.close,
+#popup2 .close,
+#popup2 *[class*="close"] {
+    display: none !important;
+}
+
+
+
