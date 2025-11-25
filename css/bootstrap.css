@@ -1073,7 +1073,7 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #a53e4c;
+  color: #11509d;
   text-decoration: none; }
   a:hover, a:focus {
     color: #6d2932;
@@ -3017,7 +3017,7 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #a53e4c;
+  color: #11509d;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -3257,7 +3257,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #a53e4c; }
+    border-color: #11509d; }
   .nav .nav-divider {
     height: 1px;
     margin: 10.5px 0;

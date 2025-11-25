@@ -214,7 +214,7 @@ button.active {
 }
 
 .txt-orange {
-  color: #ff6f6f;
+  color: #11509d;
 }
 
 .bdr {
@@ -428,7 +428,7 @@ button.active {
 .heading4 {
   font-size: 22px;
   line-height: 25px;
-  color: #a53e4c;
+  color: #11509d;
   margin: 0 0 13px;
   letter-spacing: 2px;
 }
@@ -886,7 +886,7 @@ button.active {
 
 .setting-wrap .currency-form input[type="radio"]:checked ~ .fake-label {
   font-weight: bold;
-  color: #f00;
+  color: #11509d;
 }
 
 .setting-wrap .lang-list {
@@ -1050,7 +1050,7 @@ button.active {
   right: auto;
   width: 50px;
   height: 2px;
-  border-bottom: 1px dashed #a53e4c;
+  border-bottom: 1px dashed #11509d;
   z-index: 0;
 }
 
@@ -1688,7 +1688,7 @@ button.active {
   0% {
     width: 0;
     height: 0;
-    border-top-color: #a53e4c;
+    border-top-color: #11509d;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -1696,16 +1696,16 @@ button.active {
   50% {
     width: 100%;
     height: 0;
-    border-top-color: #a53e4c;
-    border-right-color: #a53e4c;
+    border-top-color:#11509d;
+    border-right-color: #11509d;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
   100% {
     width: 100%;
     height: 100%;
-    border-top-color: #a53e4c;
-    border-right-color: #a53e4c;
+    border-top-color: #11509d;
+    border-right-color: #11509d;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
@@ -1715,7 +1715,7 @@ button.active {
   0% {
     width: 0;
     height: 0;
-    border-top-color: #a53e4c;
+    border-top-color: #11509d;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -1723,16 +1723,16 @@ button.active {
   50% {
     width: 100%;
     height: 0;
-    border-top-color: #a53e4c;
-    border-right-color: #a53e4c;
+    border-top-color: #11509d;
+    border-right-color: #11509d;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
   100% {
     width: 100%;
     height: 100%;
-    border-top-color: #a53e4c;
-    border-right-color: #a53e4c;
+    border-top-color: #11509d;
+    border-right-color: #11509d;
     border-bottom-color: transparent;
     border-left-color: transparent;
   }
@@ -1745,23 +1745,23 @@ button.active {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    border-left-color: #a53e4c;
+    border-left-color: #11509d;
   }
   50% {
     width: 0;
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: #a53e4c;
-    border-left-color: #a53e4c;
+    border-bottom-color: #11509d;
+    border-left-color: #11509d;
   }
   100% {
     width: 100%;
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: #a53e4c;
-    border-left-color: #a53e4c;
+    border-bottom-color: #11509d;
+    border-left-color: #11509d;
   }
 }
 
@@ -1772,23 +1772,23 @@ button.active {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    border-left-color: #a53e4c;
+    border-left-color: #11509d;
   }
   50% {
     width: 0;
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: #a53e4c;
-    border-left-color: #a53e4c;
+    border-bottom-color: #11509d;
+    border-left-color: #11509d;
   }
   100% {
     width: 100%;
     height: 100%;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: #a53e4c;
-    border-left-color: #a53e4c;
+    border-bottom-color: #11509d;
+    border-left-color: #11509d;
   }
 }
 
@@ -2769,7 +2769,7 @@ button.active {
 }
 
 .shop-detail .footer .color-list a.red {
-  background: #e54e5d;
+  background: #11509d;
 }
 
 .shop-detail .footer .color-list a.black {
@@ -2785,7 +2785,7 @@ button.active {
 }
 
 .shop-detail .footer .color-list a.yellow {
-  background: #ff6f6f;
+  background: #11509d;
 }
 
 .shop-detail .footer .size-list {
@@ -3269,7 +3269,7 @@ button.active {
 .widget.style2 .feature-list time {
   font-size: 18px;
   line-height: 20px;
-  color: #a53e4c;
+  color: #11509d;
   letter-spacing: 3.5px;
 }
 
@@ -3369,7 +3369,7 @@ button.active {
   right: auto;
   width: 13px;
   height: 13px;
-  background: red;
+  background: #11509d;
   border-radius: 50%;
 }
 
@@ -3402,7 +3402,7 @@ button.active {
 }
 
 .widget .color-list a:hover {
-  color: #a53e4c;
+  color: #11509d;
 }
 
 .widget .size-list {
@@ -4248,7 +4248,7 @@ button.active {
   right: auto;
   width: 39px;
   height: 2px;
-  background: #a53e4c;
+  background: #11509d;
 }
 
 .team-col .desination {
@@ -4314,7 +4314,7 @@ button.active {
   font-size: 14px;
   line-height: 17px;
   border: none;
-  border-bottom: 1px solid #a53e4c;
+  border-bottom: 1px solid #11509d;
   outline: none;
   color: #898989;
   padding: 3px 50px 17px 19px;
@@ -4479,7 +4479,7 @@ button.active {
   padding: 0;
   background: none;
   border: none;
-  color: #a53e4c;
+  color: #11509d;
 }
 
 .lightbox-demo .login-form {
@@ -4877,7 +4877,7 @@ button.active {
   width: 30px;
   height: 30px;
   color: #fff;
-  background: #a53e4c;
+  background: #11509d;
   display: inline-block;
   vertical-align: middle;
   border-radius: 100%;
@@ -5318,11 +5318,11 @@ button.active {
   width: 26px;
   height: 26px;
   padding: 3px 0 0 5px;
-  color: #a53e4c;
+  color: #11509d;
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  border: 1px solid #a53e4c;
+  border: 1px solid #11509d;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -5518,18 +5518,6 @@ button.active {
 #footer .copyright a:hover {
   color: #fff;
 }
-#popupOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Popup box style */
 #popup2 {
@@ -5542,11 +5530,17 @@ button.active {
     position: relative;
 }
 /* Hide any close button automatically added */
-#popup2 button.close,
+/*#popup2 button.close,
 #popup2 .close,
 #popup2 *[class*="close"] {
     display: none !important;
+}*/
+
+
+
+.custom-price {
+    color: #11509d; /* your desired color */
+    font-size: 19px;
+    font-weight: bold; /* optional: keep it bold */
+    float: right; /* similar to pull-right */
 }
-
-
-

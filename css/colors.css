@@ -85,7 +85,7 @@
 .blog-detail .footer .tags-list a:hover,
 .search-holder .select-form .jcf-select,
 .compare-sec .compare-table .social-network a:hover {
-  background-color: #a53e4c;
+  background-color: #11509d;
 }
 
 .cart-dropdown,
@@ -110,7 +110,7 @@
 .portfolio-detail .portfolio-slider .slick-prev:hover,
 .portfolio-detail .portfolio-slider .slick-next:hover,
 .tomatin-sec .deal-slider .slick-dots .slick-active button {
-  border-color: #a53e4c;
+  border-color: #11509d;
 }
 
 @media (max-width: 767px) {
@@ -128,6 +128,6 @@
   #header.wh-clr #nav > ul > .hover > a,
   #header.wh-clr #nav > ul > li > a:hover,
   #nav .dropdownmenu .dropdowncollist > li > a:hover {
-    background-color: #a53e4c;
+    background-color: #11509d;
   }
 }
