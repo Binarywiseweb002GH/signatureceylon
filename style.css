@@ -5157,7 +5157,7 @@ button.active {
 
 .checout-sec .currency-form input[type="radio"]:checked ~ .fake-label {
   font-weight: bold;
-  color: #f00;
+  color: #11509d;
 }
 
 .checout-sec .currency-form .btn-primary {
@@ -5585,4 +5585,22 @@ button.active {
 .widget-cart-wrap li {
     margin-top: 25px; /* push items slightly down */
 }
+.main-slider .slick-prev,
+.main-slider .slick-next {
+    display: none !important;
+}
 
+
+
+/* Header icons hover color */
+.header-holder .setting-wrap li a:hover i,
+.header-holder .widget-cart-wrap li a:hover i,
+.header-holder .setting-wrap li a:hover,
+.header-holder .widget-cart-wrap li a:hover {
+    color: #11509d !important;
+}
+
+/* If icons use font-awesome or custom icon class */
+.header-holder i:hover {
+    color: #11509d !important;
+}
