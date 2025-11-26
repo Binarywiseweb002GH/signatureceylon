@@ -5520,15 +5520,7 @@ button.active {
 }
 
 /* Popup box style */
-#popup2 {
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
-    position: relative;
-}
+
 /* Hide any close button automatically added */
 /*#popup2 button.close,
 #popup2 .close,
@@ -5631,6 +5623,3 @@ button.btn-primary.active.lg-round:hover {
     border-color: #11509d !important;     /* optional */
     transition: 0.3s;
 }
-
-
-

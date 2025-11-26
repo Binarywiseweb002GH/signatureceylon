@@ -1110,7 +1110,7 @@ Sri Lanka</li>
 				</div>
 			</div>
 		</footer>
-		<a id="newsletter-hiddenlink" href="#popup2" class="lightbox" style="display: none;">Newsletter</a>
+		<!--<a id="newsletter-hiddenlink" href="#popup2" class="lightbox" style="display: none;">Newsletter</a>-->
 		<!-- loader of the page -->
 		<div id="loader" class="loader-holder">
 			<div class="block"><img src="images/svg/hearts.svg" width="100" alt="loader"></div>
@@ -1138,26 +1138,22 @@ Sri Lanka</li>
 				<a href="javascript:void(0);" class="pull-right">Forget Password</a>
 			</div>
 		</div>
-		<!-- popup2 of the page -->
-		<div id="popupOverlay">
+		
+	<!--<div id="popupOverlay">
     <div id="popup2">
         <h4 class="heading2 text-uppercase">Age Verification</h4>
-        
         <div class="img-holder">
-            <img src="images/poup1.jpg" alt="Age Verification" class="img-responsive">
+            <img src="images/poup1.jpg" alt="Age Verification">
         </div>
-
         <span class="txt text-uppercase" style="font-size:18px; display:block; margin:15px 0;">
             You must be 18 or older to enter this website
         </span>
-
-        <div style="margin-top:20px;">
-            <button id="btnYes" class="btn btn-success">YES, I am 18+</button>
-            <button id="btnNo" class="btn btn-danger">NO</button>
+        <div>
+            <button id="btnYes" class="btn">YES, I am 18+</button>
+            <button id="btnNo" class="btn">NO</button>
         </div>
     </div>
-</div>
-
+</div>-->
 
 
 		<!-- popup3 of the page -->
@@ -1188,25 +1184,33 @@ Sri Lanka</li>
 	<!-- include jQuery -->
 	<script src="js/jquery.main.js"></script>
 	<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Get elements
-    const overlay = document.getElementById("popupOverlay");
-    const btnYes = document.getElementById("btnYes");
-    const btnNo = document.getElementById("btnNo");
+document.addEventListener('DOMContentLoaded', function() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    const btnYes = document.getElementById('btnYes');
+    const btnNo = document.getElementById('btnNo');
 
-    // YES button: remove popup
-    btnYes.addEventListener("click", function() {
-        if(overlay) {
-            overlay.parentNode.removeChild(overlay); // remove from DOM completely
-        }
+    // Show popup only if age not confirmed
+    if (localStorage.getItem('ageConfirmed') !== 'true') {
+        popupOverlay.style.display = 'flex';  // show popup
+    } else {
+        popupOverlay.style.display = 'none';  // hide popup if already confirmed
+    }
+
+    // YES button click
+    btnYes.addEventListener('click', function() {
+        localStorage.setItem('ageConfirmed', 'true'); // save confirmation
+        popupOverlay.style.display = 'none';         // hide popup immediately
     });
 
-    // NO button: show alert
-    btnNo.addEventListener("click", function() {
-        alert("You must be 18+ to enter.");
+    // NO button click
+    btnNo.addEventListener('click', function() {
+        alert("You must be 18 or older to enter.");
+        // Optional: redirect to another site
+        // window.location.href = 'https://www.google.com';
     });
 });
 </script>
+
 
 </body>
 </html>
