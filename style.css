@@ -5631,3 +5631,14 @@ button.btn-primary.active.lg-round:hover {
         height: auto;
     }
 }
+@media (max-width: 767px) {
+    .slide .holder h2 {
+        font-size: 24px;  /* smaller heading on mobile */
+        line-height: 1.3;
+    }
+
+    .slide .holder .btn-primary {
+        font-size: 14px; /* smaller button text */
+        padding: 8px 20px; /* smaller button */
+    }
+}
