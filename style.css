@@ -5604,3 +5604,33 @@ button.active {
 .header-holder i:hover {
     color: #11509d !important;
 }
+.btn-primary.active.lg-round:hover,
+.btn-primary.lg-round:hover {
+    color: #11509d !important;
+}
+.btn-primary.lg-round:hover,
+.btn-primary:hover {
+    color: #ffffff !important;
+}
+a.btn-primary.lg-round,
+button.btn-primary.lg-round {
+    transition: 0.3s; /* smooth hover */
+}
+
+a.btn-primary.active.lg-round:hover,
+button.btn-primary.active.lg-round:hover {
+    background-color: #fcb712 !important; /* Hover background */
+    color: #000000 !important;            /* Hover text */
+    border-color: #fcb712 !important;     /* Match border if any */
+    transition: 0.3s;                     /* Smooth hover effect */
+}
+/* Only this button hover */
+.btn-send:hover {
+    background-color: #11509d !important; /* blue background */
+    color: #ffffff !important;            /* white text */
+    border-color: #11509d !important;     /* optional */
+    transition: 0.3s;
+}
+
+
+
