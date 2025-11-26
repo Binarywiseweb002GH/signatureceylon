@@ -5623,3 +5623,11 @@ button.btn-primary.active.lg-round:hover {
     border-color: #11509d !important;     /* optional */
     transition: 0.3s;
 }
+
+/* Mobile view adjustments */
+@media (max-width: 767px) { /* adjust breakpoint if needed */
+    .logo img {
+        width: 50px; /* smaller on mobile */
+        height: auto;
+    }
+}
