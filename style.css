@@ -5625,12 +5625,39 @@ button.btn-primary.active.lg-round:hover {
 }
 
 /* Mobile view adjustments */
-@media (max-width: 767px) { /* adjust breakpoint if needed */
+@media (max-width: 767px) {
+    .logo {
+        text-align: center;          /* center the container */
+    }
+
     .logo img {
-        width: 50px; /* smaller on mobile */
+        width: 120px !important;      /* smaller logo */
         height: auto;
+        display: inline-block;       /* allow margin to work */
+        margin-left: 20px;           /* shift slightly to the right */
     }
 }
+/* Mobile view only */
+@media (max-width: 767px) {
+    .header-holder {
+        padding: 5px 0 !important;  /* reduce top & bottom padding */
+        min-height: auto !important; /* remove any minimum height */
+    }
+
+    /* Optional: make logo smaller */
+    .header-holder .logo img {
+        width: 120px !important;
+        height: auto;
+    }
+
+    /* Optional: reduce icon sizes */
+    .setting-wrap li a i,
+    .widget-cart-wrap li a i {
+        font-size: 16px;
+    }
+}
+
+
 /* Default heading size */
 .slide .holder h2 {
     color: #fff;
